@@ -1,0 +1,48 @@
+Last login: Fri May 27 11:15:41 on ttys002
+parksue@Parks-MacBook-Pro ~ % vi askplayagain.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+
+int main(void){
+
+        char choice[4];
+        printf("Do you want to play more? (y or n)\n");
+        scanf("%s", choice);
+
+        printf("%s\n", choice);
+
+        if (strcmp(choice, "yes") == 0) || strcmp(choice, "y") == 0 ) {
+                printf("Hello\n");
+                } else {
+                printf("Bye\");
+                }
+        
+        return 0;
+}       
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --

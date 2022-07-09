@@ -1,0 +1,48 @@
+Last login: Fri May 27 11:53:30 on ttys005
+parksue@Parks-MacBook-Pro ~ % vi dragonrealm.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        srand(time(NULL));
+        friendlyCave = (rand()%2) +1;
+
+        if (choosenCave == friendlyCave)
+                printf("Gives treasure\n");
+        } else {
+                printf("Eats you\n");
+        }
+}
+
+int ask_play_again(){
+        char choice[4];
+        printf("
+
+int main(void){
+
+        int caveNumber;
+        srand(time(NULL));
+
+        while(1) {
+                displayIntro();
+                caveNumber = chooseCave();
+"dragonrealm.c" [New] 72L, 1307B written

@@ -1,0 +1,23 @@
+
+//Loop each number, add as it goes, calculate//
+#include <stdio.h>
+
+int main(void)
+{
+        int i, input, sum;
+        scanf("%d", &input);
+        printf("Number: %d\n", input);
+
+        for (i = 1, sum = 0; i <= input; i++) {
+                printf("%d\n", i);
+                sum += i;
+        }
+
+        printf("Total: %d\n", sum);
+        return 0;
+        }
+
+}
+~                                                                               
+~                                                                               
+
