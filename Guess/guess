@@ -1,0 +1,64 @@
+Last login: Thu May 26 15:20:31 on ttys000
+parksue@Parks-MacBook-Pro ~ % vi guess.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main(void) {
+
+        int guessesTaken, number;
+        char name [32];
+        srand(time(NULL));
+
+        printf("Hello what is your name: \n");
+        scanf("%s", name);
+
+        printf("Well, %s, I am thinking of a number between 1 and 20\n", name);
+        number = (rand() % 20) + 1;
+        printf("%d\n", number);
+
+        guesses_taken = 1
+        while (guess_taken <= 6) {
+                scanf("%d", &my_number);
+                if (number == my_number) {
+                        break;
+                } else if (number < my_number) {
+                        printf("HI\n");
+                } else {
+                        printf("LOW\n");
+                }      
+"guess.c" [New] 33L, 568B written
+  [Restored May 27, 2022 10:52:52 AM]
+Last login: Fri May 27 10:52:49 on console
+Restored session: Thu May 26 16:00:24 KST 2022
+parksue@Parks-MacBook-Pro ~ % w
+12:00  up  1:09, 7 users, load averages: 1.82 1.98 1.94
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+parksue  console  -                10:52    1:08 -
+parksue  s001     -                10:52       - w
+parksue  s000     -                10:52    1:08 -zsh FBu      ??    /bin/zsh  
+parksue  s002     -                11:15      39 vi add.c          ??    /usr/b
+parksue  s003     -                11:20      24 vi askplayagain.c ??      ??  
+parksue  s004     -                11:36       3 vi sleep.c g      ??    /usr/b
+parksue  s005     -                11:53       2 vi practise sleep.c       ??  
+parksue@Parks-MacBook-Pro ~ % :w
+zsh: command not found: :w
+parksue@Parks-MacBook-Pro ~ % 

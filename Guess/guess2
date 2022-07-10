@@ -1,0 +1,52 @@
+Last login: Thu May 26 15:01:02 on console
+parksue@Parks-MacBook-Pro ~ % vi rand.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main(void) {
+        char name[32];
+
+        printf("%ld\n", time(NULL));
+        srand(time(NULL));
+/*
+
+        number = (rand() % 20) + 1;
+        print("Hello, what is your name: "\n);
+        scanf("%s", name);
+
+        printf("Well, I am thinking of a number between 1 and 20\n", name);
+
+        int number = rand();
+        printf("%d %d %d\n", number, number % 20, number % 20 + 1);
+
+/*
+
+
+        printf("%ld\n",
+        return 0;
+
+}
+-- INSERT --
+  [Restored May 27, 2022 10:52:52 AM]
+Last login: Fri May 27 10:52:49 on console
+Restored session: Thu May 26 16:00:24 KST 2022
+parksue@Parks-MacBook-Pro ~ % 
