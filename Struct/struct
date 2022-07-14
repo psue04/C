@@ -1,0 +1,48 @@
+Last login: Thu Jun  2 15:02:37 on console
+parksue@Parks-MacBook-Pro ~ % vi stuct.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<stlib.h>
+
+typedef struct {
+        int xpos;
+        int ypos;
+}Point;
+
+int main(void){
+
+        //struct point p;
+        Point p;
+
+        printf("p {xpos: %d, ypos: %d}\n", p.xpos, p.ypos);
+
+        p.xpos = 10;
+        p.xpos = 20;
+
+        printf("p {xpos: %d, ypos: %d}\n", p.xpos, p.ypos);
+
+        scanf("%d", &p.xpos);
+        scanf("%d", &p.ypos);
+
+"stuct.c" 27L, 383B written
