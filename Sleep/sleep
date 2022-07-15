@@ -1,0 +1,48 @@
+Last login: Fri May 27 11:20:09 on ttys003
+parksue@Parks-MacBook-Pro ~ % vi sleep.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+
+#include<unistd.h>
+#define Sleep(x) usleep((x) * 1000)
+#define DELAY 1000
+
+#ifdef _WINDOW
+#include <windows.h>
+#elif
+#include<unistd.h>
+#else
+#endif
+
+int main(void){
+        for (int i = 0; i < 3; i++){
+                printf("abc\n");
+                Sleep(DELAY);
+                //usleep(1000 * 1000);
+        }
+
+        return 0;
+}
+~                                                                               
+-- INSERT --

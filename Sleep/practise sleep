@@ -1,0 +1,48 @@
+Last login: Fri May 27 11:36:55 on ttys004
+parksue@Parks-MacBook-Pro ~ % vi practise sleep.c
+2 files to edit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+
+#include<windows.h>
+#ifdef_WINDOWS
+
+#else
+#elif
+#include <unistd.h>
+#define Sleep(x) usleep((x)*1000)
+#endif
+
+int main(void){
+        printf("Testing.\n");
+        Sleep(1000)
+        printf("Sleep..\n");
+        Sleep(1000)
+        printf("Sleep...\n");
+        Sleep(1000)
+return 0;
+}
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
