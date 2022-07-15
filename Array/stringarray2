@@ -1,0 +1,48 @@
+Last login: Fri Jun  3 11:23:21 on ttys004
+parksue@Parks-MacBook-Pro ~ % vi string array2.c
+2 files to edit
+parksue@Parks-MacBook-Pro ~ % vi stringarray2.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(void) {
+
+        int int_arr[3] = {1,2,3};
+        char* arr[4] = {"Hello", "There", "Test", "Code"};
+
+        for(int i = 0; i < 3; i++) {
+                printf("%s\n, arr[i];
+        }
+
+        return 0;
+}
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"stringarray2.c" [New] 14L, 208B written
