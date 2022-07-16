@@ -1,0 +1,48 @@
+Last login: Fri May 13 15:37:18 on ttys004
+parksue@Parks-MacBook-Pro ~ % vi fibo.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+int fib(int number){
+printf("calling fib(%d)\n", number);
+if (number == 0 || number == 3;
+return 1;
+return fib (number - 1) + fib (number - 2);
+}
+
+int main(void){
+int number;
+scanf("%d", &number);
+int result = fib(number);
+printf("%d\n", result);
+return 0;
+}
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"fibo.c" 16L, 279B

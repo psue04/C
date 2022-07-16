@@ -1,0 +1,52 @@
+Last login: Fri May 13 11:09:45 on ttys000
+parksue@Parks-MacBook-Pro ~ % vi factorial.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main (void){
+int i, number, result0, result1, fact;
+
+printf("Enter a number: ");
+
+scanf("d", &number);
+
+for (i =1; i <= number; i++){
+        fact += i;
+}
+return fact;
+}
+
+scanf("%d", &number);
+
+result0 = factorial_by_a_for_loop(number);
+
+result1 = factorial_by_recursive_calls(number);
+
+printf ("by a for-loop: %d, by recursive calls: %d\n", result0, result1);
+
+return 0;
+}
+"factorial.c" 33L, 516B written
+  [Restored May 13, 2022 3:37:18 PM]
+Last login: Fri May 13 15:37:18 on ttys000
+Restored session: Fri May 13 12:58:52 KST 2022
+parksue@Parks-MacBook-Pro ~ % 
