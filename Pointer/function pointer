@@ -1,0 +1,48 @@
+Last login: Fri Jun  3 11:34:14 on ttys005
+parksue@Parks-MacBook-Pro ~ % vi functionPointer.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int add(int a, int b) {
+
+        return a + b;
+}
+
+int main(void) {
+        int a = 10, b = 20;
+        int (*fptr)(int, int);
+        fptr = add;
+
+        printf("%d\n", add(a, b));
+        printf("%d\n", fptr(a, b));
+
+        return 0;
+}
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+
